@@ -80,7 +80,7 @@ DoQA/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/DoQA.git
+git clone https://github.com/VivekTiwari-S/DoQA.git
 cd DoQA
 
 # Install dependencies
@@ -132,7 +132,7 @@ streamlit run ui/streamlit_app.py
 
 ## Author
 
-**Vivek Tiwari** — [LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/your-username)
+**Vivek Tiwari** — [LinkedIn](https://www.linkedin.com/in/vivek-s-tiwari/) · [GitHub](https://github.com/VivekTiwari-S)
 
 ---
 
