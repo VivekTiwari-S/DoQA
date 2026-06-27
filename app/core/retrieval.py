@@ -15,7 +15,7 @@ llm_client = OpenAI(
     base_url=os.getenv("OPENROUTER_BASE_URL", "https://openrouter.ai/api/v1"),
     api_key=os.getenv("OPENROUTER_API_KEY"),
 )
-GEMMA_MODEL = os.getenv("GEMMA_MODEL", "google/gemma-3-12b-it")
+GEMMA_MODEL = os.getenv("GEMMA_MODEL", "google/gemma-4-26b-a4b-it:free")
 
 # --- Embedding model (same model as ingestion — critical for consistent retrieval) ---
 embeddings_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
